@@ -21,7 +21,7 @@ const displayItems = () => {
   items.items.forEach(item => {
     var haslink;
     if (item.link) {
-      haslink = `<td><a target="_blank" href="${item.link}">${item.name}</a></td>`
+      haslink = `<td class="link"><a target="_blank" href="${item.link}">${item.name}</a></td>`
     } else {
       haslink = `<td>${item.name}</td>`
     }
