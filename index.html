@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&family=Yuji+Syuku&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Holiday Wish List</h1>
+      </header>
+      <div class="wrapper">
+        <aside>
+          <h2>Filter Items</h2>
+          <label><input type="checkbox">Hide purchased items</label><br/>
+          <label><input type="checkbox">Hide wrapped items</label>
+          <hr/>
+          <h2>Sort Items</h2>
+          <select name="" id="">
+            <option value="Price: Low to High">Price: Low to High</option>
+            <option value="Price: High to Low">Price: High to Low</option>
+          </select>
+                    <hr />
+
+          <h2>Add New Item</h2>
+          <form>
+            <label for="">Recipient</label></br>
+            <input type="text"></br>
+            <label for="">Item</label></br>
+            <input type="text"></br>
+            <label for="">Price</label></br>
+            <input type="text"></br>
+          <label for="">Link</label></br>
+          <input type="text"></br>
+          <button>Add!</button>
+          </form>
+
+        </aside>
+          <table>
+            <thead>
+              <tr>
+                <th>Recipient</th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Purchased?</th>
+              </tr>
+            </thead>
+            <tbody class="table-body">
+          
+            </tbody>
+          </table>
+      </div>
+    </main>
+    <script src="./data.js"></script>
+    <script src="./Item.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+
+
+
+body, html {
+  background-image: url('./tree.jpg');
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+main {
+  background-color: rgba(225, 225, 225, .6);
+  padding: 25px;
+  margin: 50px;
+}
+
+table {
+  width: 75%;
+}
+
+td, th {
+  border: 1px black solid;
+  background-color: #090F0B;
+  color: white;
+  text-align: left;
+}
+
+th {
+  background-color: transparent;
+  color: black;
+  font-size: 25px;
+  border: none;
+  font-family: 'Yuji Syuku', serif;
+}
+
+td {
+  padding: 5px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Yuji Syuku', serif;
+  font-size: 60px;
+  margin-top: 0;
+}
+
+h2 {
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+ label {
+  font-weight: 900;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
