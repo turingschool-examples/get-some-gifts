@@ -43,7 +43,7 @@ const shoppingList = [
   },
   {
     recipient: 'Cass',
-    name: 'Bob\'s Burgers DVD',
+    name: '"Bob\'s Burgers" DVD',
     link: '',
     priceInDollars: 25
   },
@@ -67,7 +67,7 @@ const shoppingList = [
   },
   {
     recipient: 'Taylor',
-    name: 'Book Store Gift Card',
+    name: 'A local book store gift card',
     link: '',
     priceInDollars: 30
   }

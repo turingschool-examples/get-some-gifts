@@ -13,18 +13,27 @@ const createItem = () => {
   });
 }
 
+
+
 const displayItems = () => {
-  createItem()
+  createItem();
   let tableBody = document.querySelector('.table-body');
   items.items.forEach(item => {
+    var haslink;
+    if (item.link) {
+      haslink = `<td><a target="_blank" href="${item.link}">${item.name}</a></td>`
+    } else {
+      haslink = `<td>${item.name}</td>`
+    }
+
     tableBody.innerHTML += `   
     <tr>
       <td>${item.recipient}</td>
-      <td>${item.name}</td>
+      ${haslink}
       <td>$${item.priceInDollars}</td>
       <td><input type="checkbox"></td>
        <td><input type="checkbox"></td>
-    </tr>`
+     </tr>`
   });
 }
 
