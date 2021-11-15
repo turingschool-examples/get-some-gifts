@@ -14,34 +14,25 @@
   <body>
     <main>
       <header>
-        <h1>Holiday Wish List</h1>
+        <h1>Holiday Shopping List</h1>
+        <button class="button--round">+</button>
       </header>
       <div class="wrapper">
         <aside>
           <h2>Filter Items</h2>
           <label><input type="checkbox">Hide purchased items</label><br/>
           <label><input type="checkbox">Hide wrapped items</label>
-          <hr/>
           <h2>Sort Items</h2>
           <select name="" id="">
             <option value="Price: Low to High">Price: Low to High</option>
             <option value="Price: High to Low">Price: High to Low</option>
           </select>
-                    <hr />
-
-          <h2>Add New Item</h2>
-          <form>
-            <label for="">Recipient</label></br>
-            <input type="text"></br>
-            <label for="">Item</label></br>
-            <input type="text"></br>
-            <label for="">Price</label></br>
-            <input type="text"></br>
-          <label for="">Link</label></br>
-          <input type="text"></br>
-          <button>Add!</button>
-          </form>
-
+          <hr>
+          <section class="data-box">
+            <h3>0 Spent So Far</h3>
+            <h3>0 Left to Spend</h3>
+            <h3>0 People left to buy for</h3>
+          </section>
         </aside>
           <table>
             <thead>
@@ -53,13 +44,14 @@
               </tr>
             </thead>
             <tbody class="table-body">
-          
+              <!-- append info here -->
             </tbody>
           </table>
       </div>
     </main>
     <script src="./data.js"></script>
     <script src="./Item.js"></script>
+    <script src="./Items.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

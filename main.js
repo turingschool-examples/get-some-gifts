@@ -1,20 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-  displayNewItem();
+  displayItems();
 });
 
-const items = [];
-const totalSpent = 0;
+let items = {};
 
-const createNewItem = () => {
-  shoppingList.forEach(item => {
-    items.push(new Item(item))
+const createItem = () => {
+  items = new Items();
+
+  shoppingList.map(item => {
+    items.items.push(new Item(item))
   });
 }
 
-const displayNewItem = () => {
-  createNewItem()
+const displayItems = () => {
+  createItem()
   let tableBody = document.querySelector('.table-body');
-  items.forEach(item => {
+  items.items.forEach(item => {
     tableBody.innerHTML += `   
     <tr>
       <td>${item.recipient}</td>

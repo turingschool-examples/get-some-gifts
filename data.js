@@ -1,62 +1,75 @@
 const shoppingList = [
   {
     recipient: 'Scott',
-    name: 'Gift card to his favorite tattoo shop',
+    name: 'Sketchbook',
     link: '',
-    priceInDollars: 200
+    priceInDollars: 29.19
+  },
+  {
+    recipient: 'Kayla',
+    name: 'Fancy Tiger Gift Card',
+    link: 'https://fancytigercrafts.com/products/gift-card?variant=32257472069710',
+    priceInDollars: 30
+  },
+  {
+    recipient: 'Hannah',
+    name: '',
+    link: '',
+    priceInDollars: 0
+  },
+  {
+    recipient: 'Leta',
+    name: '',
+    link: '',
+    priceInDollars: 0
+  },
+  {
+    recipient: 'Nik',
+    name: '',
+    link: '',
+    priceInDollars: 0
   },
   {
     recipient: 'Jeremiah',
-    name: 'Gift card to his favorite tattoo shop',
+    name: '',
     link: '',
     priceInDollars: 200
   },
   {
-    recipient: 'Scott',
-    name: 'Gift card to his favorite tattoo shop',
+    recipient: 'Heather',
+    name: '',
     link: '',
     priceInDollars: 200
   },
   {
-    recipient: 'Jeremiah',
-    name: 'Gift card to his favorite tattoo shop',
+    recipient: 'Cass',
+    name: 'Bob\'s Burgers DVD',
+    link: '',
+    priceInDollars: 25
+  },
+  {
+    recipient: 'Robbie',
+    name: '',
     link: '',
     priceInDollars: 200
   },
   {
-    recipient: 'Scott',
-    name: 'Gift card to his favorite tattoo shop',
+    recipient: 'Travis',
+    name: '',
     link: '',
     priceInDollars: 200
   },
   {
-    recipient: 'Jeremiah',
-    name: 'Gift card to his favorite tattoo shop',
+    recipient: 'Will',
+    name: '',
     link: '',
     priceInDollars: 200
   },
   {
-    recipient: 'Scott',
-    name: 'Gift card to his favorite tattoo shop',
-    link: '',
-    priceInDollars: 200
-  },
-  {
-    recipient: 'Jeremiah',
-    name: 'Gift card to his favorite tattoo shop',
-    link: '',
-    priceInDollars: 200
-  },
-  {
-    recipient: 'Scott',
-    name: 'Gift card to his favorite tattoo shop',
-    link: '',
-    priceInDollars: 200
-  },
-  {
-    recipient: 'Jeremiah',
-    name: 'Gift card to his favorite tattoo shop',
+    recipient: 'Taylor',
+    name: '',
     link: '',
     priceInDollars: 200
   }
 ]
+
