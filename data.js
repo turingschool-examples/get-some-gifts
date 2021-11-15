@@ -61,9 +61,9 @@ const shoppingList = [
   },
   {
     recipient: 'Will',
-    name: '',
+    name: 'Wingsuit Rental',
     link: '',
-    priceInDollars: 200
+    priceInDollars: 100
   },
   {
     recipient: 'Taylor',

@@ -20,8 +20,9 @@ const displayItems = () => {
     <tr>
       <td>${item.recipient}</td>
       <td>${item.name}</td>
-      <td>${item.priceInDollars}</td>
+      <td>$${item.priceInDollars}</td>
       <td><input type="checkbox"></td>
+       <td><input type="checkbox"></td>
     </tr>`
   })
 }
