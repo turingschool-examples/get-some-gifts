@@ -19,13 +19,13 @@ td {
   background-color: #090F0B;
   color: white;
   text-align: left;
-  padding: 5px;
+  padding: 5px 100px 5px 5px;
   font-size: 20px;
 }
 
 th {
   color: black;
-  font-size: 25px;
+  font-size: 22px;
   font-family: 'Yuji Syuku', serif;
   text-align: left;
 }
