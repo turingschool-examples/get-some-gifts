@@ -6,4 +6,6 @@ You'll be working to finish a partially complete application. The HTML and CSS h
 * As a user, I should be able to see a list of all receipients with their wanted gift item and price. 
 * As a user, I should be able to see the total amount I need to spend if I purchased all gifts. 
 
+_Note: You'll need to use clone down this [Holiday Shopping API Repo](https://github.com/turingschool-examples/holiday-shopping-api) to complete your tasks. Don't worry about any of the POSTing information, you'll get to that during a later Advent date!_
+
 ![comp](https://github.com/turingschool-examples/get-some-gifts/blob/main/images/giftlist.png)
