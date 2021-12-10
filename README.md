@@ -7,6 +7,14 @@ You'll be working to finish a partially complete application. The HTML and CSS h
 * As a user, I should be able to see the total amount I need to spend if I purchased all gifts. 
 * BONUS: As a user, when I check "purchased" for each item, I should see my total cost decrease accordingly.
 
-_Note: You'll need to use clone down this [Holiday Shopping API Repo](https://github.com/turingschool-examples/holiday-shopping-api) to complete your tasks. Don't worry about any of the POSTing information, you'll get to that during a later Advent date!_
+_Note: You'll need to use clone down this [Holiday Shopping API](https://mysterious-mesa-00016.herokuapp.com/items) to complete your tasks. 
+
+
+## Endpoint
+
+| Description | URL | Method | Required Properties for Request | Sample Successful Response |
+|----------|-----|--------|---------------------|-----------------|
+| Get all items |`http://localhost:3001/items`| GET  | none | An array containing all items |
+
 
 ![comp](https://github.com/turingschool-examples/get-some-gifts/blob/main/images/giftlist.png)
