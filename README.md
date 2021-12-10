@@ -7,7 +7,7 @@ You'll be working to finish a partially complete application. The HTML and CSS h
 * As a user, I should be able to see the total amount I need to spend if I purchased all gifts. 
 * BONUS: As a user, when I check "purchased" for each item, I should see my total cost decrease accordingly.
 
-_Note: You'll need to use clone down this [Holiday Shopping API](https://mysterious-mesa-00016.herokuapp.com/items) to complete your tasks. 
+_Note: You'll need to use this [Holiday Shopping API](https://mysterious-mesa-00016.herokuapp.com/items) to complete your tasks._
 
 
 ## Endpoint
