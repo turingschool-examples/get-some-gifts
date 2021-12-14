@@ -14,7 +14,7 @@ _Note: You'll need to use this [Holiday Shopping API](https://mysterious-mesa-00
 
 | Description | URL | Method | Required Properties for Request | Sample Successful Response |
 |----------|-----|--------|---------------------|-----------------|
-| Get all items |`http://localhost:3001/items`| GET  | none | An array containing all items |
+| Get all items |`https://mysterious-mesa-00016.herokuapp.com/items`| GET  | none | An array containing all items |
 
 
 ![comp](https://github.com/turingschool-examples/get-some-gifts/blob/main/images/giftlist.png)
