@@ -9,14 +9,18 @@ You'll be working to finish a partially complete application. The HTML and CSS h
   * As a user, when I check "purchased" for each item, I should see my total cost decrease accordingly.
   * As a user, I can see which items have associated links and can navigate to them
 
-_Note: You'll need to use this [Holiday Shopping API](https://mysterious-mesa-00016.herokuapp.com/items) to complete your tasks._
+## The API
+
+You'll need to use this [Holiday Shopping API](https://github.com/turingschool-examples/holiday-shopping-api) to complete your tasks. Please follow the instructions in the Holiday Shopping API README to run the API locally. You'll need to have this running while you're working. 
+
+Hint: Once you've followed the directions in the Holiday Shopping API README, you should see "Holiday Shopping List API is now running on http://localhost:3001 !" print to your console. You should be able to visit the 'Get all items' Endpoint (listed in the README) in your browser. You'll use the 'Get all items' endpoint to craft your Fetch request. 
 
 
 ## Endpoint
 
 | Description | URL | Method | Required Properties for Request | Sample Successful Response |
 |----------|-----|--------|---------------------|-----------------|
-| Get all items |`https://mysterious-mesa-00016.herokuapp.com/items`| GET  | none | An array containing all items |
+| Get all items |`http://localhost:3001/items`| GET  | none | An array containing all items |
 
 
 ![comp](https://github.com/turingschool-examples/get-some-gifts/blob/main/images/giftlist.png)
